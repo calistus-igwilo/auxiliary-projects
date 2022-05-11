@@ -14,8 +14,11 @@ def partition(sArray):
     m = len(sArray)//2
     S1 = sArray[:m]
     S2 = sArray[m:]
-    print("S1: ", S1)
-    print("S2: ", S2)
+    dif = abs(sum(S1) - sum(S2))
+    #print("S1: ", S1)
+    #print("S2: ", S2)
+    #print("difference = ", dif, "target = ",target)
+    return dif
 
 
 
